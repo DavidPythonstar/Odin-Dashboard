@@ -1,0 +1,38 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    display:grid;
+
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+
+
+}
+
+.sidebar
+{
+    background-color: #039dfc;
+    grid-row: 1/13;
+    grid-column: 1/4;
+}
+
+.content
+{
+    background-color: #ceddf2;
+    grid-row: 3/13;
+    grid-column: 4/13;
+}
+.navbar
+{
+    grid-column: 4/13;
+    grid-row: 1/3;
+
+}
